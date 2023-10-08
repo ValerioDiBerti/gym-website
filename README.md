@@ -1,4 +1,6 @@
 # Gym Website
 
-Fully responsive gym webiste, made with HTML, CSS and Javascript.
+Fully responsive gym website, made with HTML, CSS and Javascript.
+
+[Live Demo](https://valeriodiberti.github.io/gym-website/)
 
