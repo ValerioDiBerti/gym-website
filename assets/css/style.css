@@ -397,7 +397,7 @@ h2 {
   justify-content: center;
 }
 .pricing__package {
-  min-width: 300px;
+  min-width: 280px;
   text-align: left;
   background-color: var(--clr-neutral-800);
   padding: 2.25rem 2.5rem;
@@ -538,6 +538,7 @@ h2 {
 .secondary-nav {
   display: flex;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 .secondary-nav__section {
   flex: 1 0 max-content;
@@ -611,6 +612,11 @@ h2 {
 }
 
 /*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 375px) {
+  .home__img {
+    width: 280px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .nav__menu {
