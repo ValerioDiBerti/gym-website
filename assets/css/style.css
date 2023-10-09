@@ -613,8 +613,9 @@ h2 {
 
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 375px) {
-  .home__img {
-    width: 280px;
+  .home__img,
+  .choose__img {
+    width: 80vw;
   }
 }
 
